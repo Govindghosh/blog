@@ -1,0 +1,22 @@
+.instagram-logo {
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(45deg, #fcb045, #fd1d1d, #833ab4);
+    background-size: 200% 200%;
+    animation: gradient 4s linear infinite;
+
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
