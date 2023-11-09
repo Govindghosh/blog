@@ -15,9 +15,9 @@ export default function Github() {
     
   return (
     <>
-    <div className="text-center m-2 bg-orange-300 text-black p-2 text-base font-semibold">Github Followers: {data.followers} 
+    <div className="text-center m-2 rounded-lg text-black p-2 text-base font-semibold">Github Followers: {data.followers} 
     <h2>{data.name}</h2>
-        <img src={data.avatar_url} alt='GitPicture'/>
+        <img className='rounded-lg h-40' src={data.avatar_url} alt='GitPicture'/>
     </div>
     </>
   )
